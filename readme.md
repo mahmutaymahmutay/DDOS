@@ -1,8 +1,8 @@
 !!!  This dos script  for only educational purpose  !!!
-#################################################################################
-##                                                                             ##
-##             @MAhmutAY   <mahmutayy@gmail.com>                               ##
-#################################################################################
+########################################################
+##                                                    ##
+##             @MAhmutAY                              ##
+########################################################
 
 This  script. Generates TCP SYN packages  and this packages sen using spoofed IPs so it demonstrate  Tcp Sun flow attack ( OS attack)   Please  Check if the necessary packages are installed ,   please look at the requirements.txt  
 
