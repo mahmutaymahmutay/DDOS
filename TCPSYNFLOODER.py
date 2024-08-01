@@ -1,6 +1,6 @@
 ########################################################################################
 ##                                                                                    ##
-## @MAhmutAY   <mahmutayy@gmail.com>                                                  ##
+## @MAhmutAY   <mahmutayy@yahoo.com>                                                  ##
 # # USAGE:                                                                            ##
 ## TCPSYNFLOODER.py <target_ip> <target_port> <spoofed_ips_file> <packet_count>       ##
 ## This is only educational purpose usage                                             ##
