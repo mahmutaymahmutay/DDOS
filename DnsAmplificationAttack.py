@@ -14,7 +14,7 @@ import struct
 import socket
 import argparse
 import time
-
+# In this script , spoofed IPs are Victim Ips  If you choose so many spoofed IP to use this tools will have so many targeted Victims
 def build_dns_query(domain):
     # DNS query header
     header = struct.pack('!HHHHHH', random.randint(0, 65535), 0x0100, 1, 0, 0, 0)
