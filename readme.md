@@ -19,6 +19,9 @@ Running TCPSYNFLOODER outputs :
 
 
 ##########################
-#                        #
-#  DNS ZONE TRANSFER     #  
+#                           #
+#  DNS ZONE TRANSFER Attack #  
 ##########################
+
+USAGE:  python3.7 DnsZoneTransferAttacker.py <domain>  --dns_servers_file <dns_servers_list_file >
+example: python3.7 DnsZoneTransferAttacker.py zonetransfer.me --dns_servers_file dns_servers.txt
