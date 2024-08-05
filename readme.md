@@ -17,3 +17,8 @@ For more information and help use. -h arguments :
 Running TCPSYNFLOODER outputs :
 ![Pasted Graphic 1](https://github.com/user-attachments/assets/9628bf6c-8df0-411a-ba87-6815ac964e41)
 
+
+##########################
+#                        #
+#  DNS ZONE TRANSFER     #  
+##########################
