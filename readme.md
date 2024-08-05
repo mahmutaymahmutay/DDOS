@@ -18,11 +18,13 @@ Running TCPSYNFLOODER outputs :
 ![Pasted Graphic 1](https://github.com/user-attachments/assets/9628bf6c-8df0-411a-ba87-6815ac964e41)
 
 
-##########################
-#                           #
-#  DNS ZONE TRANSFER Attack #  
-##########################
+##############################
+#                            #
+#  DnsZoneTrasferAttacker.py #  
+##############################
 
 USAGE:  python3.7 DnsZoneTransferAttacker.py <domain>  --dns_servers_file <dns_servers_list_file>
 
 example: python3.7 DnsZoneTransferAttacker.py zonetransfer.me --dns_servers_file dns_servers.txt
+
+<img width="568" alt="Dns_zone_script_help" src="https://github.com/user-attachments/assets/85a0ec54-05e5-4f44-9abd-aafd82a1c4b9">
