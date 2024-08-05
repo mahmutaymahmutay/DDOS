@@ -29,3 +29,7 @@ example: python3.7 DnsZoneTransferAttacker.py zonetransfer.me --dns_servers_file
 
 <img width="568" alt="Dns_zone_script_help" src="https://github.com/user-attachments/assets/85a0ec54-05e5-4f44-9abd-aafd82a1c4b9">
 <img width="422" alt="dns_servers_txt" src="https://github.com/user-attachments/assets/bd1ec008-e7df-4447-adf8-b08cfb7077ff">
+
+Output of the  DnsZoneTrasferAttacke.py that was run,  the  "zonetransfer.me" domain's zone  entries are below:
+
+<img width="1131" alt="Transferred_Zone" src="https://github.com/user-attachments/assets/aae27624-0de9-427f-8d61-581a619d704a">
